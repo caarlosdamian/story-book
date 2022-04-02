@@ -9,7 +9,7 @@ function Button({ label, backgroundColor, color, size = "md",borderRadius,handle
     color,
     padding: `${scale * 0.5}rem ${scale * 1}rem`,
     border: "none",
-    borderRadius
+    borderRadius,
   }
   return (
     <button onClick={handleClick} style={style}>
